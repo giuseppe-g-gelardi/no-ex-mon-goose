@@ -1,4 +1,4 @@
-const mongoose = requre('mongoose')
+const mongoose = require('mongoose')
 
 const productSchema = new mongoose.Schema({
   name: { type: String, required: true, minlength: 2, maxlength: 255 },
@@ -9,5 +9,7 @@ const productSchema = new mongoose.Schema({
 })
 
 const Product = mongoose.model('Product', productSchema)
+
+
 
 module.exports = Product
