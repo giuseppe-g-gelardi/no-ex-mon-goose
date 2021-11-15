@@ -105,3 +105,4 @@ dist
 
 #Database Information
 ./config/default.json
+config
