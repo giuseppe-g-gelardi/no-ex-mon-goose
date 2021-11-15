@@ -20,6 +20,7 @@
   "homepage": "https://github.com/giuseppe-g-gelardi/no-ex-mongo-mongoose#readme",
   "dependencies": {
     "config": "^3.3.6",
+    "express": "^4.17.1",
     "mongoose": "^6.0.13"
   }
 }
