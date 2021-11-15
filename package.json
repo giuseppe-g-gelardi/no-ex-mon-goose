@@ -1,0 +1,20 @@
+{
+  "name": "no-ex-mongo-mongoose",
+  "version": "1.0.0",
+  "description": "node express mongodb and mongoose api project for dCC mern class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giuseppe-g-gelardi/no-ex-mongo-mongoose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giuseppe-g-gelardi/no-ex-mongo-mongoose/issues"
+  },
+  "homepage": "https://github.com/giuseppe-g-gelardi/no-ex-mongo-mongoose#readme"
+}
