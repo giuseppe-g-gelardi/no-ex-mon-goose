@@ -106,3 +106,7 @@ dist
 #Database Information
 ./config/default.json
 config
+config
+/config
+\config\default.json
+config\default.json
