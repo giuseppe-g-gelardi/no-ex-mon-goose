@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/giuseppe-g-gelardi/no-ex-mongo-mongoose/issues"
   },
-  "homepage": "https://github.com/giuseppe-g-gelardi/no-ex-mongo-mongoose#readme"
+  "homepage": "https://github.com/giuseppe-g-gelardi/no-ex-mongo-mongoose#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "mongoose": "^6.0.13"
+  }
 }
