@@ -1,6 +1,6 @@
-const connectDB = require('./startup/db')
 const express = require('express')
 const cors = require('cors')
+const connectDB = require('./startup/db')
 
 const products = require('./routes/products')
 
