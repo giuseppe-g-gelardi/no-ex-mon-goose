@@ -5,7 +5,7 @@ const { productSchema } = require('./products')
 const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   isGoldMember: { type: String, default: false },
-  shoppingCart: {type: [productSchema], default: [] },
+  shoppingCart: { type: [productSchema], default: [] },
 })
 
 const User = mongoose.model('User', userSchema)

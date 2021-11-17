@@ -99,17 +99,6 @@ router.delete('/:id', async (req, res) => {
   } catch (ex) {
     return res.status(500).send(`Internal Server Error ${ex}`)
   }
-
-
 })
-
-
-
-
-
-
-
-
-
 
 module.exports = router

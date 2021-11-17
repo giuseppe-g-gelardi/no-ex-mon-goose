@@ -70,7 +70,7 @@ router.delete('./:userId/shoppingcart/:productId', async (req, res) => {
   
   let product = user.shoppingCart.id(req.params.productId)
   if (!product) return res.status(400).send(
-    `The product with id: "${req.parms.productId}" is not in the users shopping cart.`
+    `The product with id: "${req.params.productId}" is not in the users shopping cart.`
     )
   
   product = await product.remove()
